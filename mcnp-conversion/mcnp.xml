@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='utf-8'?>
+<model>
+  <materials>
+    <material id="7">
+      <density value="8.0" units="g/cm3"/>
+      <nuclide name="C0" wo="0.0004"/>
+      <nuclide name="Si28" wo="0.005"/>
+      <nuclide name="P31" wo="0.00023"/>
+      <nuclide name="S32" wo="0.00015"/>
+      <nuclide name="Cr52" wo="0.19"/>
+      <nuclide name="Mn55" wo="0.01"/>
+      <nuclide name="Fe56" wo="0.70173"/>
+      <nuclide name="Ni58" wo="0.0925"/>
+    </material>
+    <material id="10">
+      <density value="5.323" units="g/cm3"/>
+      <nuclide name="Ge70" ao="0.2051"/>
+      <nuclide name="Ge72" ao="0.2745"/>
+      <nuclide name="Ge73" ao="0.0776"/>
+      <nuclide name="Ge74" ao="0.367"/>
+      <nuclide name="Ge76" ao="0.0757"/>
+    </material>
+    <material id="11">
+      <density value="1.38" units="g/cm3"/>
+      <nuclide name="H1" wo="0.04196"/>
+      <nuclide name="C0" wo="0.625016"/>
+      <nuclide name="O16" wo="0.333024"/>
+    </material>
+    <material id="12">
+      <density value="2.6989" units="g/cm3"/>
+      <nuclide name="Mg24" wo="0.009"/>
+      <nuclide name="Si28" wo="0.007"/>
+      <nuclide name="Fe56" wo="0.006"/>
+      <nuclide name="Cu63" wo="0.003"/>
+      <nuclide name="Cr52" wo="0.0025"/>
+      <nuclide name="Zn64" wo="0.002"/>
+      <nuclide name="Ti48" wo="0.001"/>
+      <nuclide name="Mn55" wo="0.0005"/>
+      <nuclide name="Al27" wo="0.969"/>
+    </material>
+    <material id="13">
+      <density value="8.07" units="g/cm3"/>
+      <nuclide name="Fe56" wo="0.000868"/>
+      <nuclide name="Cu63" wo="0.665381"/>
+      <nuclide name="Zn64" wo="0.325697"/>
+      <nuclide name="Sn120" wo="0.002672"/>
+      <nuclide name="Pb208" wo="0.005382"/>
+    </material>
+    <material id="14">
+      <density value="2.35" units="g/cm3"/>
+      <nuclide name="H1" wo="0.008483"/>
+      <nuclide name="H2" wo="2e-06"/>
+      <nuclide name="C0" wo="0.050064"/>
+      <nuclide name="O16" wo="0.4722"/>
+      <nuclide name="Mg24" wo="0.0188408886521763"/>
+      <nuclide name="Mg25" wo="0.0024909493306234363"/>
+      <nuclide name="Mg26" wo="0.0028511620172002633"/>
+      <nuclide name="Al27" wo="0.036063"/>
+      <nuclide name="Si28" wo="0.13330847357739614"/>
+      <nuclide name="Si29" wo="0.00701086967483306"/>
+      <nuclide name="Si30" wo="0.004780656747770798"/>
+      <nuclide name="S32" wo="0.002814627741005793"/>
+      <nuclide name="S33" wo="2.2865493551294847e-05"/>
+      <nuclide name="S34" wo="0.00013202102630601787"/>
+      <nuclide name="S36" wo="4.857391368943849e-07"/>
+      <nuclide name="K39" wo="0.0015771419508661794"/>
+      <nuclide name="K40" wo="2.029451839923608e-07"/>
+      <nuclide name="K41" wo="0.00011965510394982793"/>
+      <nuclide name="Ca40" wo="0.2386811660679979"/>
+      <nuclide name="Ca42" wo="0.0016725629514960224"/>
+      <nuclide name="Ca43" wo="0.000357307875697765"/>
+      <nuclide name="Ca44" wo="0.005649166365242286"/>
+      <nuclide name="Ca46" wo="1.1324978311100535e-05"/>
+      <nuclide name="Ca48" wo="0.0005524717612549511"/>
+      <nuclide name="Fe54" wo="0.0006227615275467931"/>
+      <nuclide name="Fe56" wo="0.010137657639673534"/>
+      <nuclide name="Fe57" wo="0.00023831026177444914"/>
+      <nuclide name="Fe58" wo="3.2270571005223845e-05"/>
+    </material>
+  </materials>
+  <geometry>
+    <cell id="9" material="void" region="-70 ((9201 (10025 | -10026 | 10027) (10028 | -10027 | 10030)) | (((-10031 10032 -10033) | -96) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10007 | -10008 | 10009 | (-10004 10005 -10006)) (10010 | -10011 | 10012) (10013 | -10014 | 10015 | (-10016 10014 -10018) | (-10037 10038 -10039) | -9603 | (-10037 10038 -10039)) (((10031 | -10032 | 10033) 96) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) ((92 (10025 | -10020 | 10027) (10022 | -10027 | 10024)) | ((-9201 | (-10025 10026 -10027) | (-10028 10027 -10030)) (((10031 | -10032 | 10033) 96) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (((-10031 10032 -10033) | -96) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603) | (-10037 10038 -10039) | -9603) (10037 | -10038 | 10039) 9603 (10040 | -10041 | 10042 | (-10043 10009 -10045) | (-10007 10008 -10009) | (-10046 10047 -10048)) (10046 | -10047 | 10048) (10049 | -10050 | 10051) (10053 | -10052 | 10055 | -10054 | 10057 | -10056 | (-10059 10058 -10061 10060 -10063 10062)) (10059 | -10058 | 10061 | -10060 | 10063 | -10062) (10065 | -10064 | 10067 | -10066 | 10069 | -10068) (10065 | -10064 | 10073 | -10072 | 10069 | -10068) (10065 | -10064 | 10079 | -10078 | 10069 | -10068) (10082 | -10083 | 10084)" universe="0"/>
+    <cell id="300" material="10" region="(-9201 | (-10025 10026 -10027) | (-10028 10027 -10030)) (((10031 | -10032 | 10033) 96) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603" universe="0"/>
+    <cell id="301" material="void" region="((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)" universe="0"/>
+    <cell id="302" material="12" region="-10007 10008 -10009 (10004 | -10005 | 10006)" universe="0"/>
+    <cell id="303" material="11" region="-10010 10011 -10012" universe="0"/>
+    <cell id="304" material="12" region="-10013 10014 -10015 (10016 | -10014 | 10018) (10037 | -10038 | 10039) 9603 (10037 | -10038 | 10039)" universe="0"/>
+    <cell id="305" material="10" region="((-10031 10032 -10033) | -96) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603" universe="0"/>
+    <cell id="306" material="10" region="(-92 | (-10025 10020 -10027) | (-10022 10027 -10024)) ((9201 (10025 | -10026 | 10027) (10028 | -10027 | 10030)) | (((-10031 10032 -10033) | -96) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (10037 | -10038 | 10039) 9603) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) (((10034 | -10032 | 10036) 9601) | ((-10037 10038 -10039) | -9603)) (((10031 | -10032 | 10033) 96) | (((-10034 10032 -10036) | -9601) ((10037 | -10038 | 10039) 9603)) | (-10037 10038 -10039) | -9603) (10037 | -10038 | 10039) 9603" universe="0"/>
+    <cell id="307" material="13" region="(-10037 10038 -10039) | -9603" universe="0"/>
+    <cell id="308" material="12" region="-10040 10041 -10042 (10043 | -10009 | 10045) (10007 | -10008 | 10009) (10046 | -10047 | 10048)" universe="0"/>
+    <cell id="999" material="void" region="70" universe="0"/>
+    <cell id="1000" material="7" region="-10065 10064 -10067 10066 -10069 10068" universe="0"/>
+    <cell id="1001" material="7" region="-10065 10064 -10073 10072 -10069 10068" universe="0"/>
+    <cell id="1002" material="7" region="-10065 10064 -10079 10078 -10069 10068" universe="0"/>
+    <cell id="1003" material="14" region="-10082 10083 -10084" universe="0"/>
+    <cell id="3081" material="7" region="-10046 10047 -10048" universe="0"/>
+    <cell id="3082" material="7" region="-10049 10050 -10051" universe="0"/>
+    <cell id="3083" material="7" region="-10053 10052 -10055 10054 -10057 10056 (10059 | -10058 | 10061 | -10060 | 10063 | -10062)" universe="0"/>
+    <cell id="3084" material="12" region="-10059 10058 -10061 10060 -10063 10062" universe="0"/>
+    <surface id="70" type="sphere" coeffs="0.0 0.0 150.0 150.0"/>
+    <surface id="92" type="z-torus" coeffs="0.0 0.0 105.043002 1.645 0.8 0.8"/>
+    <surface id="96" type="sphere" coeffs="0.0 0.0 105.413 0.55003"/>
+    <surface id="9201" type="z-torus" coeffs="0.0 0.0 105.043002 1.645 0.73 0.73"/>
+    <surface id="9601" type="sphere" coeffs="0.0 0.0 105.413 0.55"/>
+    <surface id="9603" type="sphere" coeffs="0.0 0.0 105.1805001 0.3175"/>
+    <surface id="10004" type="z-cylinder" coeffs="0.0 0.0 3.37"/>
+    <surface id="10005" type="z-plane" coeffs="103.94"/>
+    <surface id="10006" type="z-plane" coeffs="117.34"/>
+    <surface id="10007" type="z-cylinder" coeffs="0.0 0.0 3.5"/>
+    <surface id="10008" type="z-plane" coeffs="103.81"/>
+    <surface id="10009" type="z-plane" coeffs="117.21000000000001"/>
+    <surface id="10010" type="z-cylinder" coeffs="0.0 0.0 2.521"/>
+    <surface id="10011" type="z-plane" coeffs="104.24"/>
+    <surface id="10012" type="z-plane" coeffs="104.243"/>
+    <surface id="10013" type="z-cylinder" coeffs="0.0 0.0 2.521001"/>
+    <surface id="10014" type="z-plane" coeffs="104.243001"/>
+    <surface id="10015" type="z-plane" coeffs="113.64300100000001"/>
+    <surface id="10016" type="z-cylinder" coeffs="0.0 0.0 2.445001"/>
+    <surface id="10018" type="z-plane" coeffs="113.323001"/>
+    <surface id="10020" type="z-plane" coeffs="104.243002"/>
+    <surface id="10022" type="z-cylinder" coeffs="0.0 0.0 2.445"/>
+    <surface id="10024" type="z-plane" coeffs="107.72300200000001"/>
+    <surface id="10025" type="z-cylinder" coeffs="0.0 0.0 1.645"/>
+    <surface id="10026" type="z-plane" coeffs="104.313002"/>
+    <surface id="10027" type="z-plane" coeffs="105.043002"/>
+    <surface id="10028" type="z-cylinder" coeffs="0.0 0.0 2.375"/>
+    <surface id="10030" type="z-plane" coeffs="107.723012"/>
+    <surface id="10031" type="z-cylinder" coeffs="0.0 0.0 0.55003"/>
+    <surface id="10032" type="z-plane" coeffs="105.413"/>
+    <surface id="10033" type="z-plane" coeffs="107.72301"/>
+    <surface id="10034" type="z-cylinder" coeffs="0.0 0.0 0.55"/>
+    <surface id="10036" type="z-plane" coeffs="107.723"/>
+    <surface id="10037" type="z-cylinder" coeffs="0.0 0.0 0.3175"/>
+    <surface id="10038" type="z-plane" coeffs="105.1805001"/>
+    <surface id="10039" type="z-plane" coeffs="119.1799999"/>
+    <surface id="10040" type="z-cylinder" coeffs="0.0 0.0 3.75"/>
+    <surface id="10041" type="z-plane" coeffs="117.08"/>
+    <surface id="10042" type="z-plane" coeffs="128.68"/>
+    <surface id="10043" type="z-cylinder" coeffs="0.0 0.0 3.62"/>
+    <surface id="10045" type="z-plane" coeffs="128.54999999999998"/>
+    <surface id="10046" type="z-cylinder" coeffs="0.0 0.0 1.59"/>
+    <surface id="10047" type="z-plane" coeffs="119.18"/>
+    <surface id="10048" type="z-plane" coeffs="142.08"/>
+    <surface id="10049" type="z-cylinder" coeffs="0.0 0.0 4.6"/>
+    <surface id="10050" type="z-plane" coeffs="142.080001"/>
+    <surface id="10051" type="z-plane" coeffs="151.98000100000002"/>
+    <surface id="10052" type="x-plane" coeffs="-9.0"/>
+    <surface id="10053" type="x-plane" coeffs="13.0"/>
+    <surface id="10054" type="y-plane" coeffs="-13.8"/>
+    <surface id="10055" type="y-plane" coeffs="9.1"/>
+    <surface id="10056" type="z-plane" coeffs="151.980002"/>
+    <surface id="10057" type="z-plane" coeffs="179.480002"/>
+    <surface id="10058" type="x-plane" coeffs="-8.0"/>
+    <surface id="10059" type="x-plane" coeffs="12.0"/>
+    <surface id="10060" type="y-plane" coeffs="-12.8"/>
+    <surface id="10061" type="y-plane" coeffs="8.1"/>
+    <surface id="10062" type="z-plane" coeffs="152.980002"/>
+    <surface id="10063" type="z-plane" coeffs="178.480002"/>
+    <surface id="10064" type="x-plane" coeffs="-22.86"/>
+    <surface id="10065" type="x-plane" coeffs="22.86"/>
+    <surface id="10066" type="y-plane" coeffs="101.6"/>
+    <surface id="10067" type="y-plane" coeffs="101.8"/>
+    <surface id="10068" type="z-plane" coeffs="122.985"/>
+    <surface id="10069" type="z-plane" coeffs="183.945"/>
+    <surface id="10072" type="y-plane" coeffs="60.4"/>
+    <surface id="10073" type="y-plane" coeffs="60.6"/>
+    <surface id="10078" type="y-plane" coeffs="19.2"/>
+    <surface id="10079" type="y-plane" coeffs="19.4"/>
+    <surface id="10082" type="y-cylinder" coeffs="0.0 150.0 66.8"/>
+    <surface id="10083" type="y-plane" coeffs="114.3"/>
+    <surface id="10084" type="y-plane" coeffs="134.3"/>
+  </geometry>
+  <settings>
+    <run_mode>eigenvalue</run_mode>
+    <particles>100</particles>
+    <batches>40</batches>
+    <inactive>20</inactive>
+    <source type="independent" strength="1.0" particle="neutron">
+      <space type="point">
+        <parameters>0.0 0.0 0.0</parameters>
+      </space>
+    </source>
+    <output>
+      <summary>true</summary>
+    </output>
+  </settings>
+  </model>
