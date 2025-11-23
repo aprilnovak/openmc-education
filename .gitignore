@@ -1,0 +1,6 @@
+*.h5
+*.xml
+*.ipynb_checkpoints
+*.out
+*.e
+*.pkl
